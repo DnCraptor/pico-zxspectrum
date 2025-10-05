@@ -271,7 +271,7 @@ add_dependencies (ZxSpectrumRP2350PiZero
   ZxSpectrumRP2350PiZero_640x480x60Hz
   ZxSpectrumRP2350PiZero_720x576x50Hz
 )
-if (${PICO_BOARD} STREQUAL "waveshare_rp2350_zero")
+if (${PICO_BOARD} STREQUAL "waveshare_rp2350_pizero")
   message("Relevant target: ZxSpectrumRP2350PiZero")
   add_dependencies(relevant ZxSpectrumRP2350PiZero)
 endif()

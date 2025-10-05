@@ -440,11 +440,10 @@ endforeach()
 
 set (ZxSpectrumRP2350PiZero_defines
   PICO_PIO_USE_GPIO_BASE=1
-  PICO_RP2350A=0
   # Set up the DVI output to match the Waveshare RP2350 PiZero
   DVI_CUSTOM_CONFIG
   DVI_DEFAULT_SERIAL_CONFIG=waveshare_rp2350_pizero_hdmi_cfg
-  PICO_CORE1_STACK_SIZE=0x400
+  PICO_CORE1_STACK_SIZE=0x800
   DVI_VERTICAL_REPEAT=2
   DVI_N_TMDS_BUFFERS=3
   DVI_1BPP_BIT_REVERSE=1

@@ -23,4 +23,4 @@ build_group() {
 # Various Pi Pico2 RP2350 boards
 #build_group pico2 rp2350-arm-s
 # Waveshare RP2350 PiZero
-build_group waveshare_rp2350_zero rp2350-arm-s
+build_group waveshare_rp2350_pizero rp2350-arm-s
