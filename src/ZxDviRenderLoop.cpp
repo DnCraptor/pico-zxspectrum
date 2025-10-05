@@ -40,11 +40,23 @@ void ZxDviRenderLoopInit_s(const struct dvi_timing *t) {
   set_sys_clock_khz(t->bit_clk_khz, true);
   sleep_ms(10);
 	
-  // TODO only for pin numbers above 31
   pio_set_gpio_base(DVI_DEFAULT_SERIAL_CONFIG.pio,16);
-
+  
   dvi0.timing = t;
   dvi0.ser_cfg = DVI_DEFAULT_SERIAL_CONFIG;
+  
+  // Only set the GPIO base if we are using pin numbers above 31
+  const bool high_gpio_base = 
+    (dvi0.ser_cfg.pins_tmds[0] > 31) ||
+    (dvi0.ser_cfg.pins_tmds[1] > 31) ||
+    (dvi0.ser_cfg.pins_tmds[2] > 31) ||
+    (dvi0.ser_cfg.pins_clk > 31) 
+  ;
+
+  if (high_gpio_base) {
+    pio_set_gpio_base(DVI_DEFAULT_SERIAL_CONFIG.pio,16);
+  }
+
   dvi_init(&dvi0, next_striped_spin_lock_num(), next_striped_spin_lock_num());
 }
 
