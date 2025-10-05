@@ -1,5 +1,26 @@
 
 ## Updates
+27/06/25
+
+* Fixed some broken VGA firmware
+
+07/05/25
+
+* Added support for [PICO ZX HDMI](docs/PicoZxHdmi.md) board by bobricuis
+* Default video mode can be set in the menu
+* Default audio mode can be set in the menu
+* Video and audio mode persisted with other settings in .config on the SD card
+* Quite a big update to the video and audio processing, raise an issue if I have broken your firmware.
+
+10/02/25
+
+* Updates for orginal [PICO ZX](docs/ZxSpectrumPicomputerZxLcd.md) board by bobricius
+  * Improvements to menu navigation
+  * Fit on-screeen-keyboard onto LCD panel
+
+28/01/25
+
+* Support for beautiful new [PICO ZX](docs/ZxSpectrumPicomputerZx2Lcd.md) board by bobricius
 
 28/12/24
 

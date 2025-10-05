@@ -22,27 +22,9 @@ This project is intended to be relatively easy to breadboard or prototype in som
 * Kempston mouse emulation
 
 ## Updates
-27/06/25
+05/10/25
 
-* Fixed some broken VGA firmware
-
-07/05/25
-
-* Added support for [PICO ZX HDMI](docs/PicoZxHdmi.md) board by bobricuis
-* Default video mode can be set in the menu
-* Default audio mode can be set in the menu
-* Video and audio mode persisted with other settings in .config on the SD card
-* Quite a big update to the video and audio processing, raise an issue if I have broken your firmware.
-
-10/02/25
-
-* Updates for orginal [PICO ZX](docs/ZxSpectrumPicomputerZxLcd.md) board by bobricius
-  * Improvements to menu navigation
-  * Fit on-screeen-keyboard onto LCD panel
-
-28/01/25
-
-* Support for beautiful new [PICO ZX](docs/ZxSpectrumPicomputerZx2Lcd.md) board by bobricius
+* Added builds for [Waveshare RP2350-PiZero](https://www.waveshare.com/wiki/RP2350-PiZero)
 
 [more...](docs/updates.md)
 
@@ -78,6 +60,7 @@ Click on the images below for more information ...
 <a href="docs/ZxSpectrumPicoVga.md"><img src="docs/pico-demo-base-9_1500x1500.png" width="200"/></a>
 <a href="docs/MURMULATOR.md"><img src="docs/MURMULATOR_VGA_photo1.png" width="200"/></a>
 <a href="docs/ZxSpectrumPiZero.md"><img src="docs/RP2040-PiZero-1.png" width="200px" />
+<a href="docs/ZxSpectrumRP2350PiZero.md"><img src="docs/RP2350PiZero.png" width="200px" />
 </a>
 
 
@@ -100,6 +83,7 @@ Click on the images below for more information ...
 | [MURMULATOR](docs/MURMULATOR.md) | Micro with VGA/HDMI and more |
 | [MURMULATOR2](docs/MURMULATOR2.md) | Micro with VGA/HDMI and more |
 | [RP2040-PiZero](docs/ZxSpectrumPiZero.md) | Waveshare RP2040-PiZero Development Board |
+| [RP2350-PiZero](docs/ZxSpectrumRP2350PiZero.md) | Waveshare RP2350-PiZero Development Board |
 | [CVBS 50Hz](docs/ZxSpectrumCVBS.md) | Unknown/breadboard with 50Hz CVBS output |
 
 ## Screen shots

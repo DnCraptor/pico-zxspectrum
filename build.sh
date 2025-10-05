@@ -22,3 +22,5 @@ build_group adafruit_feather_rp2040 rp2040
 build_group pico rp2040
 # Various Pi Pico2 RP2350 boards
 build_group pico2 rp2350-arm-s
+# Waveshare RP2350 PiZero
+build_group waveshare_rp2350_pizero rp2350-arm-s
