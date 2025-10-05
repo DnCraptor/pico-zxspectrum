@@ -32,8 +32,6 @@ static const struct dvi_serialiser_cfg waveshare_rp2040_pizero_hdmi_cfg = {
 //  Probably want to run this on a pio on its own,
 //  or at least with other high numbered gpio access
 //
-//  In theory the sdk will select the upper bank of GPIO pins automatically (!?!)
-//
 static const struct dvi_serialiser_cfg waveshare_rp2350_pizero_hdmi_cfg = {
 	.pio = DVI_DEFAULT_PIO_INST,
 	.sm_tmds = {0, 1, 2},
