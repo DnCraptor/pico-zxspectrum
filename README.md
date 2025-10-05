@@ -100,6 +100,7 @@ Click on the images below for more information ...
 | [MURMULATOR](docs/MURMULATOR.md) | Micro with VGA/HDMI and more |
 | [MURMULATOR2](docs/MURMULATOR2.md) | Micro with VGA/HDMI and more |
 | [RP2040-PiZero](docs/ZxSpectrumPiZero.md) | Waveshare RP2040-PiZero Development Board |
+| [RP2350-PiZero](docs/ZxSpectrumRP2350PiZero.md) | Waveshare RP2350-PiZero Development Board |
 | [CVBS 50Hz](docs/ZxSpectrumCVBS.md) | Unknown/breadboard with 50Hz CVBS output |
 
 ## Screen shots

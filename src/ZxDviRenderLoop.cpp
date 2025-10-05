@@ -39,7 +39,7 @@ void ZxDviRenderLoopInit_s(const struct dvi_timing *t) {
   // Run system at TMDS bit clock
   set_sys_clock_khz(t->bit_clk_khz, true);
   sleep_ms(10);
-	
+
   dvi0.timing = t;
   dvi0.ser_cfg = DVI_DEFAULT_SERIAL_CONFIG;
   
