@@ -40,8 +40,6 @@ void ZxDviRenderLoopInit_s(const struct dvi_timing *t) {
   set_sys_clock_khz(t->bit_clk_khz, true);
   sleep_ms(10);
 	
-  pio_set_gpio_base(DVI_DEFAULT_SERIAL_CONFIG.pio,16);
-  
   dvi0.timing = t;
   dvi0.ser_cfg = DVI_DEFAULT_SERIAL_CONFIG;
   
